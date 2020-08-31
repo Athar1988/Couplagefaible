@@ -15,6 +15,7 @@ public class Presentation {
 		try {
   Scanner sc= new Scanner(new File("config.txt"));
   //nom des classe que nous allons utiliser a partier du fichier .txt
+  //nom des classe que nous allons utiliser a partier du fichier .txt
   String  daoclass=sc.next();
   String  metierclass=sc.nextLine();
   System.out.println(daoclass+" "+metierclass);
